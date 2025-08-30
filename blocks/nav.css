@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 39px;
+  width: 105px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 20px;
+  list-style-type: none;
+  gap: 20px;
+  position: relative;
+  top: 30px;
+  right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 0;
+}
+.nav__link:hover {
+  color: aqua;
+}
